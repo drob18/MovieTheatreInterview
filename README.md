@@ -110,10 +110,10 @@ R008 B18, B19
 This makes sure that once a row is finished, no seats are skipped in the succeeding row
 
 In: 
-ROO1 21
+R001 21
 
 Out:
-ROO1 Cannot sit Anywhere!
+R001 Cannot sit Anywhere!
 
 In:
 R001 20
