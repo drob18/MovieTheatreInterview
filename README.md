@@ -22,6 +22,12 @@ Also, I assume that there are no groups larger than 20 trying to enter the theat
 
 My final assumption was that each customer would feel safe sitting within the given buffer distance, hance sitting 3 seats apart from another group would not cause an issue.
 
+# Running the Solution in Terminal
+
+To run my solution, it is a java file, so from the directory the Movie.java file is in, 
+compile with javac Movie.java 
+run with java Movie
+
 # Creating the Solution
 
 The data structure I used to represent the seats was  a 2d array, and the the array entried were either a -1 (representing a buffer seat), a 0 (representing a taken seat), or a 1 (representing an empty seat). This was a 10 x 20 array, as each of the smaller arrays held 20 seats, meant to be a full row. 
