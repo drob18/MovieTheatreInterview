@@ -73,6 +73,7 @@ public class Movie {
                         } else {
                             System.out.println();
                             System.out.print(resID + " Cannot be seated");
+                        }
                     } else {
                         System.out.println("Invalid Reservation");
                         continue;
