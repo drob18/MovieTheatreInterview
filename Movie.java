@@ -55,7 +55,7 @@ public class Movie {
                             }
                         }
                         System.out.println();
-                        if (capacity) {
+                        if (capacity || occ <= 0 || occ > 20) {
                             System.out.print(resID + " Cannot be seated");
                         } else {
                             System.out.print(resID + " ");
