@@ -51,11 +51,14 @@ public class Movie {
                                         seats[k][l] = -1;
                                     }
                                     seated = true;
-                                }
+                                } else if (occ <= 0 || occ > 20) {
+                                    System.out.print(resID + " Cannot be seated");
+                                    continue;
+                                    
                             }
                         }
                         System.out.println();
-                        if (capacity || occ <= 0 || occ > 20) {
+                        if (capacity) {
                             System.out.print(resID + " Cannot be seated");
                         } else {
                             System.out.print(resID + " ");
@@ -71,7 +74,7 @@ public class Movie {
                         }
                     } else {
                         System.out.println("Invalid Reservation");
-                        break;
+                        continue;
                     }
                     currRes.clear();
                 }
