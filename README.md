@@ -1,4 +1,4 @@
-# Walmart Movie Theater Interview
+# Movie Theater Interview
 
 The goal is to implement an algorithm that effectively assigns seats for movie theater reservation requests, maximizing both customer satisfaction and customer safety. 
 
